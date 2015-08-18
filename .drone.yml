@@ -8,5 +8,5 @@ build:
   commands:
     - export GOPATH=/drone
     - export PATH=$PATH:$GOPATH/bin
-    - go build ./...
+    - go build -o client/client ./...
     - ./client/client
