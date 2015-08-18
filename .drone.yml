@@ -3,6 +3,10 @@
 clone:
   path: github.com/cjb/golang-test-client
 
+compose:
+  golang-test-server:
+    image: cjbprime/golang-test-server
+
 build:
   image: golang:1.4.2
   commands:
